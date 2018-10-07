@@ -5,13 +5,14 @@ const RecipeItem = (props) => (
         <div className="card">
             <img
                 className="card-img-top img-fluid"
-                src={props.recipe.thumbnail}
-                alt={props.recipe.title}/>
+                src={props.thumbnail}
+                alt={props.title}/>
             <div className="card-body">
-                <h5 className="card-title">{props.recipe.title}</h5>
+                <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">
                     <strong>Ingredients:
-                    </strong> {props.recipe.ingredients }
+                    </strong>
+                    {props.ingredients}
                 </p>
             </div>
         </div>
