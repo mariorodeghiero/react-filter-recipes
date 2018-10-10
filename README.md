@@ -1,42 +1,31 @@
-# Usando React para listar e filtrar receitas
-Neste desafio, você criará uma interface para listar e filtrar receitas.
+# React Filter Recipes
 
-## Tópicos
-Com esse desafio, você aprenderá:
+Application to list and filter recipes using ReactJS.
+
+## Built with
 
 - React
 - ES6
 - Javascript
-- Testes unitários
 
-## Requisitos
-Você precisará do Nodejs (LTS ou Current) instalado em sua máquina.
+## Prerequisites
 
-## Detalhes
-Dentro da pasta `src`, você encontrará a estrutura básica do projeto React. . Além disso, todos os arquivos necessários já estão criados assim como a estrutura em relação a `HTML` e `CSS`. Sua missão neste desafio será criar a lógica dos componentes para deixá-lo dinâmico.
+- Nodejs (LTS or Current)
 
+### How it works
 
-Dentro da pasta `sample_data`, você terá uma listagem de receitas que deverá ser impressa na tela.
-
-### Tarefas
-1. Renderizar dinamicamente o componente `RecipeItems` para todos os elementos dentro dos dados de amostra;
-2. Ao digitar um texto no `input` dentro do component `Navbar`, os `RecipeItems` deverão ser filtrados, tanto pelo `title` quanto pelo `ingredients`;
-3. O filtro deverá ser `case insensitive`;
-4. (Bônus) fazer o highlight do texto pesquisado dentro do `title` e `ingredients` utilizando a tag `<mark>`.
+1. Renderiza dinamicamente o componente `RecipeItems` para todos os elementos dentro dos dados de amostra;
+2. Ao digitar um texto no `input` dentro do component `Navbar`, os `RecipeItems` são filtrados, tanto pelo `title` quanto pelo `ingredients`;
+3. Filtro `case insensitive`;
 
 ### Exemplo
+
 ![](https://thumbs.gfycat.com/BouncyAfraidDikkops-size_restricted.gif)
 
-### Atenção
-- NÃO MUDE o nome dos componentes, eles são utilizados para a realização dos testes.
-- O componente `App` deve utilizar o `state` chamado `searchString` para realizar o filtro de `RecipeItems`, garantindo assim o funcionamento adequado dos teste.
+## Author
 
-## Rodando a aplicação
-Na primeira execução rodar o comando:
-```
-npm install
-```
-Para rodar a aplicação:
-```
-npm start
-```
+- [Mário Antônio do Amaral Rodeghiero](https://github.com/mariorodeghiero)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
