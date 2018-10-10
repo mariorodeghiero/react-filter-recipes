@@ -1,6 +1,6 @@
 # React Filter Recipes
 
-Application to list and filter recipes using ReactJS.
+ReactJS Track Challenge from [Codination](https://www.codenation.com.br), this app lists and filters recipes using ReactJS.
 
 ## Built with
 
@@ -14,9 +14,9 @@ Application to list and filter recipes using ReactJS.
 
 ### How it works
 
-1. Renderiza dinamicamente o componente `RecipeItems` para todos os elementos dentro dos dados de amostra;
-2. Ao digitar um texto no `input` dentro do component `Navbar`, os `RecipeItems` são filtrados, tanto pelo `title` quanto pelo `ingredients`;
-3. Filtro `case insensitive`;
+1. Dynamically renders the `RecipeItems` component for all elements within the sample data;
+2. When entering a text in the `input` within the`Navbar` component, `RecipeItems` are filtered, both by`title` and `ingredients`;
+3. Case insensitive filter;
 
 ### Exemplo
 
