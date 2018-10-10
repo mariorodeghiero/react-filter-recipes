@@ -18,7 +18,7 @@ ReactJS Track Challenge from [Codination](https://www.codenation.com.br), this a
 2. When entering a text in the `input` within the`Navbar` component, `RecipeItems` are filtered, both by`title` and `ingredients`;
 3. Case insensitive filter;
 
-### Exemplo
+### Example
 
 ![](https://thumbs.gfycat.com/BouncyAfraidDikkops-size_restricted.gif)
 
